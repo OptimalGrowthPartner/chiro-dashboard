@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { Upload, FileAudio, Copy, Download, AlertCircle, CheckCircle, Loader2 } from 'lucide-react';
 
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://chiro-backend-grfj.onrender.com';
 
 function App() {
   const [file, setFile] = useState(null);
